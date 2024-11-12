@@ -3,19 +3,66 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* == colors == */
+  /* static */
+  --white: #ffffff;
+
+  /* coolgray */
+  --coolgray-100: #0d1b3d;
+  --coolgray-95: #192747;
+  --coolgray-90: #253251;
+  --coolgray-80: #3d4964;
+  --coolgray-70: #556077;
+  --coolgray-60: #6e768b;
+  --coolgray-50: #868d9e;
+  --coolgray-40: #9ea4b2;
+  --coolgray-30: #b6bbc5;
+  --coolgray-20: #cfd1d8;
+  --coolgray-15: #dbdde2;
+  --coolgray-10: #e7e8ec;
+  --coolgray-8: #ecedf0;
+  --coolgray-4: #f5f6f7;
+
+  /* aqua blue */
+  --aqua-blue-100: #0f87cf;
+  --aqua-blue-95: #1b8dd1;
+  --aqua-blue-90: #2793d4;
+  --aqua-blue-80: #3f9fd9;
+  --aqua-blue-70: #57abdd;
+  --aqua-blue-60: #6fb7e2;
+  --aqua-blue-50: #87c3e7;
+  --aqua-blue-40: #9fcfec;
+  --aqua-blue-30: #b7dbf1;
+  --aqua-blue-20: #cfe7f5;
+  --aqua-blue-15: #dbedf8;
+  --aqua-blue-10: #e7f3fa;
+  --aqua-blue-5: #f3f9fd;
+
+  /* hue blue */
+  --hue-blue-100: #0aa0f7;
+  --hue-blue-90: #22a9f7;
+  --hue-blue-80: #3bb3f8;
+  --hue-blue-70: #53bcf9;
+  --hue-blue-60: #6cc6fa;
+  --hue-blue-50: #84cffb;
+  --hue-blue-40: #9dd9fc;
+  --hue-blue-30: #b5e2fc;
+  --hue-blue-20: #ceecfd;
+  --hue-blue-15: #daf1fe;
+  --hue-blue-10: #e6f5fe;
+  --hue-blue-8: #eef8fe;
+  --hue-blue-5: #f3faff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    var(--font-noto-sans-kr) Arial,
+    Helvetica,
+    sans-serif;
 }
