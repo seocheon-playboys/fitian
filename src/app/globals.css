@@ -65,4 +65,6 @@ body {
     var(--font-noto-sans-kr) Arial,
     Helvetica,
     sans-serif;
+  background-color: var(--white);
+  color: var(--coolgray-100);
 }
